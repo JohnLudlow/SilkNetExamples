@@ -1,8 +1,10 @@
 <Solution>
   <Folder Name="/Tutorials/" />
   <Folder Name="/Tutorials/OpenGL/">
+    <Project Path="Tutorials/OpenGL/Abstractions/Abstractions.csproj" />
     <Project Path="Tutorials/OpenGL/HelloQuad/HelloQuad.csproj" />
     <Project Path="Tutorials/OpenGL/HelloTexture/HelloTexture.csproj" />
     <Project Path="Tutorials/OpenGL/HelloWindow/HelloWindow.csproj" />
+    <Project Path="Tutorials/OpenGL/Texture/Texture.csproj" />
   </Folder>
 </Solution>

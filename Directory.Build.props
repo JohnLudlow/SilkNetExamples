@@ -1,7 +1,7 @@
 <Project>
     <PropertyGroup>
         <Nullable>enable</Nullable>
-        <AnalysisMode>Recommended</AnalysisMode>
+        <AnalysisMode>All</AnalysisMode>
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
     </PropertyGroup>
 </Project>

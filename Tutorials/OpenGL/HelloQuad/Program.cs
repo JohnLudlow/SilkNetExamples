@@ -44,7 +44,7 @@ internal sealed class Program
     // Called once on window creation
     Console.WriteLine("Window loaded.");
 
-    var input = _window.CreateInput();
+    using var input = _window.CreateInput();
     foreach (var keyboard in input.Keyboards)
     {
       keyboard.KeyDown += KeyDown;
@@ -121,7 +121,7 @@ internal sealed class Program
       throw new Exception("{shaderType} shader compilation failed. \n\r" + infoLog);
 #pragma warning restore CA2201 // Do not raise reserved exception types
     }
-    _gl.AttachShader(_program, shader);
+    _gl.AttachShader(shaderProgram, shader);
 
     return shader;
   }

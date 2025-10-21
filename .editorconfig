@@ -36,6 +36,7 @@ dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_require_accessibility_modifiers = for_non_interface_members:suggestion
 
 dotnet_diagnostic.CA2213.severity = warning
+dotnet_diagnostic.CA1303.severity = silent
 
 # ReSharper properties
 resharper_autodetect_indent_settings = true

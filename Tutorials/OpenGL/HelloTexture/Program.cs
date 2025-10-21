@@ -46,7 +46,7 @@ internal sealed class Program
     // Called once on window creation
     Console.WriteLine("Window loaded.");
 
-    var input = _window.CreateInput();
+    using var input = _window.CreateInput();
     foreach (var keyboard in input.Keyboards)
     {
       keyboard.KeyDown += KeyDown;
