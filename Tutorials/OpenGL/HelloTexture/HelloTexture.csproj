@@ -2,11 +2,10 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SilkNetExamples.Tutorials.OpenGL.HelloQuad</RootNamespace>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-
+    <RootNamespace>SilkNetExamples.Tutorials.OpenGL.HelloTexture</RootNamespace>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
@@ -14,9 +13,11 @@
     <PackageReference Include="Silk.NET.Input" />
     <PackageReference Include="Silk.NET.OpenGL" />
     <PackageReference Include="Silk.NET.Windowing" />
+    <PackageReference Include="StbImageSharp" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Resources/Images/silk.png" CopyToOutputDirectory="PreserveNewest" />
     <None Include="Resources/Shaders/vertexCode.glsl" CopyToOutputDirectory="PreserveNewest" />
     <None Include="Resources/Shaders/fragmentCode.glsl" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>

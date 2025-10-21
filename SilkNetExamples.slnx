@@ -2,6 +2,7 @@
   <Folder Name="/Tutorials/" />
   <Folder Name="/Tutorials/OpenGL/">
     <Project Path="Tutorials/OpenGL/HelloQuad/HelloQuad.csproj" />
+    <Project Path="Tutorials/OpenGL/HelloTexture/HelloTexture.csproj" />
     <Project Path="Tutorials/OpenGL/HelloWindow/HelloWindow.csproj" />
   </Folder>
 </Solution>
