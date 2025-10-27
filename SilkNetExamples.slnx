@@ -6,5 +6,6 @@
     <Project Path="Tutorials/OpenGL/HelloTexture/HelloTexture.csproj" />
     <Project Path="Tutorials/OpenGL/HelloWindow/HelloWindow.csproj" />
     <Project Path="Tutorials/OpenGL/Texture/Texture.csproj" />
+    <Project Path="Tutorials/OpenGL/Transformations/Transformations.csproj" />
   </Folder>
 </Solution>
